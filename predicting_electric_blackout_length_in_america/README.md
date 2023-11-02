@@ -55,3 +55,70 @@ This Exercise seeks to predict the duration of outage events (in minutes)
 | OUTAGE.DURATION | Duration of outage events (in minutes) |
 | DEMAND.LOSS.MW | Amount of peak demand lost during an outage event (in Megawatt) [but in many cases, total demand is reported] |
 | CUSTOMERS.AFFECTED | Number of customers affected by the power outage event |
+
+### REGIONAL ELECTRICITY CONSUMPTION INFORMATION
+#### Electricity price
+| Variable | Description |
+| ----------- | ----------- |
+| RES.PRICE | Monthly electricity price in the residential sector (cents/kilowatt-hour) |
+| COM.PRICE | Monthly electricity price in the commercial sector (cents/kilowatt-hour) |
+| IND.PRICE | Monthly electricity price in the industrial sector (cents/kilowatt-hour) |
+| TOTAL.PRICE | Average monthly electricity price in the U.S. state (cents/kilowatt-hour) |
+
+#### Electricity consumption
+| Variable | Description |
+| ----------- | ----------- |
+| RES.SALES | Electricity consumption in the residential sector (megawatt-hour) |
+| COM.SALES | Electricity consumption in the commercial sector (megawatt-hour) |
+| IND.SALES | Electricity consumption in the industrial sector (megawatt-hour) |
+| TOTAL.SALES | Total electricity consumption in the U.S. state (megawatt-hour) |
+| RES.PERCEN | Percentage of residential electricity consumption compared to the total electricity consumption in the state (in %) |
+| COM.PERCEN | Percentage of commercial electricity consumption compared to the total electricity consumption in the state (in %) |
+| IND.PERCEN | Percentage of industrial electricity consumption compared to the total electricity consumption in the state (in %) |
+
+#### Customers Served
+| Variable | Description |
+| ----------- | ----------- |
+| RES.CUSTOMERS | Annual number of customers served in the residential electricity sector of the U.S. state |
+| COM.CUSTOMERS | Annual number of customers served in the commercial electricity sector of the U.S. state |
+| IND.CUSTOMERS | Annual number of customers served in the industrial electricity sector of the U.S. state |
+| TOTAL.CUSTOMERS | Annual number of total customers served in the U.S. state |
+| RES.CUST.PCT | Percent of residential customers served in the U.S. state (in %) |
+| COM.CUST.PCT | Percent of commercial customers served in the U.S. state (in %) |
+| IND.CUST.PCT | Percent of industrial customers served in the U.S. state (in %) |
+
+
+### REGIONAL ECONOMIC CHARACTERISTICS
+#### Economic outputs
+| Variable | Description |
+| ----------- | ----------- |
+| PC.REALGSP.STATE | Per capita real gross state product (GSP) in the U.S. state (measured in 2009 chained U.S. dollars) |
+| PC.REALGSP.USA | Per capita real GSP in the U.S. (measured in 2009 chained U.S. dollars) |
+| PC.REALGSP.REL | Relative per capita real GSP as compared to the total per capita real GDP of the U.S. (expressed as fraction of per capita State real GDP & per capita US real GDP) |
+| PC.REALGSP.CHANGE | Percentage change of per capita real GSP from the previous year (in %) |
+| UTIL.REALGSP | Real GSP contributed by Utility industry (measured in 2009 chained U.S. dollars) |
+| TOTAL.REALGSP | Real GSP contributed by all industries (total) (measured in 2009 chained U.S. dollars) |
+| UTIL.CONTRI | Utility industry׳s contribution to the total GSP in the State (expressed as percent of the total real GDP that is contributed by the Utility industry) (in %) |
+| PI.UTIL.OFUSA | State utility sector׳s income (earnings) as a percentage of the total earnings of the U.S. utility sector׳s income (in %) | 
+
+### REGIONAL LAND-USE CHARACTERICS
+#### Population
+| Variable | Description |
+| ----------- | ----------- |
+| POPULATION | Population in the U.S. state in a year |
+| POPPCT_URBAN | Percentage of the total population of the U.S. state represented by the urban population (in %) |
+| POPPCT_UC | Percentage of the total population of the U.S. state represented by the population of the urban clusters (in %) |
+| POPDEN_URBAN | Population density of the urban areas (persons per square mile) |
+| POPDEN_UC | Population density of the urban clusters (persons per square mile) |
+| POPDEN_RURAL | Population density of the rural areas (persons per square mile) |
+
+#### Land Area
+| Variable | Description |
+| ----------- | ----------- |
+| AREAPCT_URBAN | Percentage of the land area of the U.S. state represented by the land area of the urban areas (in %) |
+| AREAPCT_UC | Percentage of the land area of the U.S. state represented by the land area of the urban clusters (in %) |
+| PCT_LAND | Percentage of land area in the U.S. state as compared to the overall land area in the continental U.S. (in %) |
+| PCT_WATER_TOT | Percentage of water area in the U.S. state as compared to the overall water area in the continental U.S. (in %) |
+| PCT_WATER_INLAND | Percentage of inland water area in the U.S. state as compared to the overall inland water area in the continental U.S. (in %) |
+
+
