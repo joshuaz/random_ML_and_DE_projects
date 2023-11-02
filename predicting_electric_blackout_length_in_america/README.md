@@ -1,5 +1,5 @@
 # Overview
-This Exercise seeks to predict the duration of outage events (in minutes)
+This Exercise seeks to predict the duration of outage events (in minutes) (target variable: OUTAGE.DURATION)
 
 ## Data sources
 [data source background](https://www.sciencedirect.com/science/article/pii/S2352340918307182)<br>
