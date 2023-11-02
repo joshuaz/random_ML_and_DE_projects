@@ -20,6 +20,7 @@ This Exercise seeks to predict the duration of outage events (in minutes)
 | POSTAL.CODE | Represents the postal code of the U.S. states |
 | NERC.REGION | The North American Electric Reliability Corporation (NERC) regions involved in the outage event |
 
+
 ### REGIONAL CLIMATE INFORMATION
 #### U.S. Climate regions
 | Variable | Description |
