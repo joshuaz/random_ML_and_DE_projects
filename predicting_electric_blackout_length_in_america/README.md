@@ -11,5 +11,11 @@ This Exercise seeks to predict the duration of outage events (in minutes)
 | Variable | Description |
 | ----------- | ----------- |
 | YEAR | Indicates the year when the outage event occurred |
-| MONTH | Indicates the month when the outage event occurred |![image](https://github.com/joshuaz/random_ML_projects/assets/8460427/8652af9e-89d3-427b-aad1-7dd10e8393f4)
+| MONTH | Indicates the month when the outage event occurred |
 
+#### Geographic Areas
+| Variable | Description |
+| ----------- | ----------- |
+| U.S._STATE | Represents all the states in the continental U.S. |
+| POSTAL.CODE | Represents the postal code of the U.S. states |
+| NERC.REGION | The North American Electric Reliability Corporation (NERC) regions involved in the outage event |
