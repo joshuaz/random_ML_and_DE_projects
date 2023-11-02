@@ -33,3 +33,25 @@ This Exercise seeks to predict the duration of outage events (in minutes)
 | ANOMALY.LEVEL | This represents the oceanic El Niño/La Niña (ONI) index referring to the cold and warm episodes by season. It is estimated as a 3-month running mean of ERSST.v4 SST anomalies in the Niño 3.4 region (5°N to 5°S, 120–170°W) [6] |
 | CLIMATE.CATEGORY | This represents the climate episodes corresponding to the years. The categories—“Warm”, “Cold” or “Normal” episodes of the climate are based on a threshold of ± 0.5 °C for the Oceanic Niño Index (ONI) |
 
+### OUTAGE EVENTS INFORMATION
+#### Event start and end information
+| Variable | Description |
+| ----------- | ----------- |
+| OUTAGE.START.DATE | This variable indicates the day of the year when the outage event started (as reported by the corresponding Utility in the region) |
+| OUTAGE.START.TIME | This variable indicates the time of the day when the outage event started (as reported by the corresponding Utility in the region) |
+| OUTAGE.RESTORATION.DATE | This variable indicates the day of the year when power was restored to all the customers (as reported by the corresponding Utility in the region) |
+| OUTAGE.RESTORATION.TIME | This variable indicates the time of the day when power was restored to all the customers (as reported by the corresponding Utility in the region) |
+
+#### Cause of the event
+| Variable | Description |
+| ----------- | ----------- |
+| CAUSE.CATEGORY | Categories of all the events causing the major power outages |
+| CAUSE.CATEGORY.DETAIL | Detailed description of the event categories causing the major power outages |
+| HURRICANE.NAMES | If the outage is due to a hurricane, then the hurricane name is given by this variable |
+
+#### Extent of outages
+| Variable | Description |
+| ----------- | ----------- |
+| OUTAGE.DURATION | Duration of outage events (in minutes) |
+| DEMAND.LOSS.MW | Amount of peak demand lost during an outage event (in Megawatt) [but in many cases, total demand is reported] |
+| CUSTOMERS.AFFECTED | Number of customers affected by the power outage event |
