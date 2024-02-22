@@ -10,7 +10,7 @@ This project creates a simple ETL(Extract, Transform, Load) pipeline of my Spoti
 - To download docker, I opened a terminal and ran `brew install --cask docker`
   - `brew install`: This is the standard Homebrew command to install packages.
   - `cask`: This option indicates that you want to install a GUI application using Homebrew Cask.
-- In my root directory, I created a file called `docker` (i.e., `mkdir docker`)
+- In my root directory, I created a folder called `docker` (i.e., `mkdir docker`)
 - Within `docker`, I created three folders: `dags`, `logs`, and `plugins`
 - I placed `docker-compose.yaml` in `docker` (obtained from `https://airflow.apache.org/docs/apache-airflow/2.0.2/docker-compose.yaml`)
 - to activate airflow I ran `docker-compose up airflow-init` and `docker-compose up`
