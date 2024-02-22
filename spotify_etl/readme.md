@@ -14,6 +14,8 @@ This project creates a simple ETL(Extract, Transform, Load) pipeline of my Spoti
 - Within `docker`, I created three folders: `dags`, `logs`, and `plugins`
 - I placed `docker-compose.yaml` in `docker` (obtained from `https://airflow.apache.org/docs/apache-airflow/2.0.2/docker-compose.yaml`)
 - to activate airflow I ran `docker-compose up airflow-init` and `docker-compose up`
+- Note that, in a Docker containerized environment, containers are isolated from the host machine's file system by default for security and encapsulation reasons. The container has its own file system, and it doesn't have direct access to the host machine's file system.
+  -  
 - to access airflow, I navigated to `localhost:8080` (username: `airflow`, password: `airflow`)
   
 `spotify_dag.py`
