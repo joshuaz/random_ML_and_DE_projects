@@ -23,3 +23,9 @@
 4. Initialize Airflow via Docker
 
 5. In terminal, `dbt init dbt_practice_project_20240406` 
+
+6. I saved my data in the seeds folder. THen I ran `dbt seed` to ensure it was in there.
+
+7. Then I ran `dbt build`, and I saw my data in GCP
+
+8. Or you can run `dbt run --select=mushroom_counts` to run just the one model
