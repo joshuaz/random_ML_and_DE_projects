@@ -29,3 +29,5 @@
 7. Then I ran `dbt build`, and I saw my data in GCP
 
 8. Or you can run `dbt run --select=mushroom_counts` to run just the one model
+
+9. Your dbt `profiles.yml` file might be saved in your .dbt folder at your home directory. (can type `ls -a` to find the hidden folders, then do `code profiles.yml` to open it in VSCode). Ensure your the profile in your `dbt_project.yml` file matches one of the profiles in your `profiles.yml` file
